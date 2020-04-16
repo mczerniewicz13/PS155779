@@ -1,0 +1,40 @@
+---
+title: "Zestaw 37"
+lang: pl
+output:
+  word_document: default
+  pdf_document: default
+---
+
+
+1. W folderze Debug37 znajduje się projekt z kodem w języku C. W pliku main.c w niektórych linijkach są komentarze. Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu.
+
+*Punktacja: 1 pkt za każdą poprawną linijkę, łącznie 7 pkt.*
+
+2. W folderze Popraw37 znajduje się kod w języku C, który nie spełnia zasad kompilacji. Popraw kod modyfikując dokładnie 1 linijkę tak, aby się kompilował. Zabronioną operacją jest komentowanie kodu. Do zmodyfikowanych linii zaliczają się zarówno linie istotne ze względu na kompilację jak i te nieistotne (np. dodanie spacji przed operatorem może być operacją nieistotną ze względu na kompilację, ale będzie liczone jako zmodyfikowana linijka).
+
+*Punktacja: 7 pkt.*
+
+3. Napisz funkcję `min2`, która zwraca mniejszą z dwóch podanych jako jej parametry liczb, a następnie funkcję
+`min3`, zwracającą najmniejszą spośród trzech podanych liczb. Funkcja `min3` ma do tego celu używać funkcji
+`min2`. Stwórz po dwa przypadki testowe dla obu funkcji.
+
+
+*Punktacja: 8 pkt.*
+
+4. Napisz funkcję, która otrzymuje trzy argumenty:
+
+* wskaźnik na funkcję o jednym argumencie typu `double` zwracające wartość typu `double`,
+* dwie wartości `x` i `y` typu `double`.
+
+Funkcja ma zwrócić 1 jeśli wartość wartość funkcji przekazanej jako parametry w punkcie x i y są sobie równe oraz ma zwracać -1 w przeciwnym wypadku. Stwórz dwa przypadki testowe dla funkcji, aby funkcja zwróciła obie możliwe wartości.
+
+*Punktacja: 8 pkt.*
+
+5. Napisz program, który wyświetla na konsoli sumę liczb od 1 do 35. W programie wykorzystaj samodzielnie napisaną funkcję rekurencyjną.
+
+*Punktacja: 10 pkt.*
+
+6. Napisz funkcję, która otrzymuje cztery argumenty: dodatnią liczbę całkowitą $n$, liczbę całkowitą $m$ oraz dwie $n$-elementowe tablice `tab1` i `tab2` o elementach typu `int`. Funkcja ma zwrócić liczbę ile liczb mniejszych niż $m$ jest w tablicy `tab1` i `tab2`. Stwórz dwa przypadki testowe dla funkcji. 
+
+*Punktacja: 10 pkt.*
