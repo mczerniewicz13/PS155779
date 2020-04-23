@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1587652692 source:c:\users\user\desktop\studia\ps\5.2.1\main.c
+	<stdio.h>
+	<stdlib.h>
+
